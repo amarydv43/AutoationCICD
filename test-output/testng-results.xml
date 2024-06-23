@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T11:24:24 IST" name="Suite" finished-at="2024-06-17T11:24:57 IST" duration-ms="32880">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrder.SubmitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" name="SubmitOrder" class="AmarAcademy.Tests.SubmitOrder"/>
+      </group> <!-- Purchase -->
+      <group name="ErrorCheck">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" name="LoginErrorValidation" class="AmarAcademy.Tests.ErrorValidation"/>
+      </group> <!-- ErrorCheck -->
+    </groups>
+    <test started-at="2024-06-17T11:24:24 IST" name="ErrorValidation" finished-at="2024-06-17T11:24:48 IST" duration-ms="24092">
+      <class name="AmarAcademy.Tests.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:24 IST" name="launchApplication" finished-at="2024-06-17T11:24:27 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="LoginErrorValidation()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:27 IST" name="LoginErrorValidation" finished-at="2024-06-17T11:24:27 IST" duration-ms="503" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or passwor.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or passwor.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at AmarAcademy.Tests.ErrorValidation.LoginErrorValidation(ErrorValidation.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:27 IST" name="closeBrowser" finished-at="2024-06-17T11:24:27 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:27 IST" name="launchApplication" finished-at="2024-06-17T11:24:30 IST" duration-ms="2710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="LoginErrorValidation()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:30 IST" name="LoginErrorValidation" finished-at="2024-06-17T11:24:31 IST" duration-ms="590" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or passwor.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or passwor.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at AmarAcademy.Tests.ErrorValidation.LoginErrorValidation(ErrorValidation.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:31 IST" name="closeBrowser" finished-at="2024-06-17T11:24:31 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:31 IST" name="launchApplication" finished-at="2024-06-17T11:24:32 IST" duration-ms="1588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:32 IST" name="LoginErrorValidation" finished-at="2024-06-17T11:24:33 IST" duration-ms="576" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or passwor.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or passwor.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at AmarAcademy.Tests.ErrorValidation.LoginErrorValidation(ErrorValidation.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:33 IST" name="closeBrowser" finished-at="2024-06-17T11:24:33 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:33 IST" name="launchApplication" finished-at="2024-06-17T11:24:35 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:35 IST" name="ProductErrorValidation" finished-at="2024-06-17T11:24:48 IST" duration-ms="13556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AmarAcademy.Tests.ErrorValidation@5e21e98f]" started-at="2024-06-17T11:24:48 IST" name="closeBrowser" finished-at="2024-06-17T11:24:48 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AmarAcademy.Tests.ErrorValidation -->
+    </test> <!-- ErrorValidation -->
+    <test started-at="2024-06-17T11:24:24 IST" name="SubmitOrder" finished-at="2024-06-17T11:24:57 IST" duration-ms="32880">
+      <class name="AmarAcademy.Tests.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:24 IST" name="launchApplication" finished-at="2024-06-17T11:24:29 IST" duration-ms="4157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:29 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-06-17T11:24:40 IST" duration-ms="11517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vowels@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sachin@200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zara coat 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:40 IST" name="closeBrowser" finished-at="2024-06-17T11:24:40 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:40 IST" name="launchApplication" finished-at="2024-06-17T11:24:42 IST" duration-ms="1697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:42 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-06-17T11:24:54 IST" duration-ms="11707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Register@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Register123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:54 IST" name="closeBrowser" finished-at="2024-06-17T11:24:54 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:54 IST" name="launchApplication" finished-at="2024-06-17T11:24:56 IST" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistory()[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:56 IST" name="OrderHistory" finished-at="2024-06-17T11:24:57 IST" depends-on-methods="AmarAcademy.Tests.SubmitOrder.SubmitOrder" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AmarAcademy.Tests.SubmitOrder@6a47b187]" started-at="2024-06-17T11:24:57 IST" name="closeBrowser" finished-at="2024-06-17T11:24:57 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AmarAcademy.Tests.SubmitOrder -->
+    </test> <!-- SubmitOrder -->
+  </suite> <!-- Suite -->
+</testng-results>
